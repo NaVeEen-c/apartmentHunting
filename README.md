@@ -1,1 +1,16 @@
-# apartmentHunting
+To find the nearest block ,we have to give the reward for each block, which is nearer to the list of requirements that you have declared in the list
+more reward means more nearest to the required buildings.
+First accesss the each block from the array of objects.One object contains all the information about one block
+1.first created a empty object that stores the reward for each block
+2.assign a temp variable with the reward 0 
+3.set the rewards of all blocks to zero
+4.access the one object or block details from the array of objects using for loop 
+5.access all the requirements from the list one by one
+6.then check if the required building is nearer to the block or not .if yes then increase reward of that specific block
+7.compare reward with the tempvaraible to get heighest reward of a blocks
+8.if the tempvariable less than reward then update temp variable with heighest reward 
+9.go to the step 4 and do the same process for all the objects in the arry of objects 
+10.after getting heighest reward,check all the blocks which contains the heighest reward
+11.then return the block which is nearer to all the required buildings that declared in list of requirements
+12.what if all the blocks doesnot contain the buildings that specified in list of requirements .then check all other buildings nearer to the block and give the rewards 
+13.return the heighest reward block
